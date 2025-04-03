@@ -15,9 +15,9 @@ package edu.ijse.mvc.model;
  
  /**
   *
-  * @author anjana
+  * @author sarasi-vidumini
   */
- public class itemModel {
+ public class ItemModel {
      public String saveItem(ItemDto itemDto) throws ClassNotFoundException, SQLException{
          Connection connection = DBConnection.getInstance().getConnection();
          String sql = "INSERT INTO Item VALUES(?,?,?,?,?)";
